@@ -1,0 +1,21 @@
+@mixin color1{
+  background: #D1A954;
+}
+@mixin color2{
+  background: #333333;
+}
+@mixin space-b{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+@mixin  space-a{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@mixin space-e{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
