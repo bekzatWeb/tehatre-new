@@ -322,7 +322,7 @@ body {
 }
 #slide .slide--bloc1:hover {
   transform: scale(1.1);
-  z-index: 10;
+  z-index: 100;
 }
 #slide .slide--bloc1:hover h2 {
   display: none;
@@ -331,7 +331,7 @@ body {
   display: none;
 }
 #slide .slide--bloc1:hover ion-icon {
-  z-index: 10;
+  z-index: 1000;
 }
 #slide .slide--bloc2 {
   position: relative;
@@ -371,6 +371,7 @@ body {
 }
 #slide .slide--bloc2:hover {
   transform: scale(1.1);
+  z-index: 100;
 }
 #slide .slide--bloc2:hover h2 {
   display: none;
@@ -379,7 +380,7 @@ body {
   display: none;
 }
 #slide .slide--bloc2:hover ion-icon {
-  z-index: 10;
+  z-index: 1000;
 }
 #slide .slide--bloc3 {
   width: 443px;
@@ -419,6 +420,7 @@ body {
 }
 #slide .slide--bloc3:hover {
   transform: scale(1.1);
+  z-index: 100;
 }
 #slide .slide--bloc3:hover h2 {
   display: none;
@@ -427,7 +429,7 @@ body {
   display: none;
 }
 #slide .slide--bloc3:hover ion-icon {
-  z-index: 10;
+  z-index: 1000;
 }
 #slide .slide--bloc4 {
   width: 443px;
@@ -467,6 +469,7 @@ body {
 }
 #slide .slide--bloc4:hover {
   transform: scale(1.1);
+  z-index: 100;
 }
 #slide .slide--bloc4:hover h2 {
   display: none;
@@ -475,7 +478,7 @@ body {
   display: none;
 }
 #slide .slide--bloc4:hover ion-icon {
-  z-index: 10;
+  z-index: 1000;
 }
 
 #star {
